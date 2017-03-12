@@ -1,0 +1,87 @@
+body {
+    padding-top: 80px;
+    background-color: #1B264F;
+    content-sizing: border-box;
+}
+
+.navbar {
+    background-color: #202C39;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #FDFFFF;
+}
+
+.navbar-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #FDFFFF;
+}
+
+.storyline {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: #FDFFFF;
+    text-transform: uppercase;
+}
+
+.movie-tile {
+    height: 500px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.movie-tile:hover {
+    border: thin solid #576CA8;
+    cursor: pointer;
+}
+
+.movie-tile:hover .title {
+    display: none;
+}
+
+.movie-tile:hover .storyline {
+    display: block;
+    color: #FDFFFF;
+}
+
+#trailer .modal-dialog {
+    margin-top: 200px;
+    width: 640px;
+    height: 480px;
+}
+
+.hanging-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9001;
+}
+
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
