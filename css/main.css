@@ -25,6 +25,7 @@ body {
     display: none;
     font-style: italic;
     font-weight: lighter;
+		font-size: 1.5em;
 }
 
 .title {

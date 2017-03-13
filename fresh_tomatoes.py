@@ -86,7 +86,7 @@ movie_tile_content = '''
     <img src="{poster_image_url}" width="220" height="342">
 	<div class "title_story">
 		<h3 class="title">{movie_title}</h3>
-		<h2 class="storyline">{movie_storyline}</h2>
+		<p class="storyline">{movie_storyline}</p>
 	</div>
 </div>
 '''

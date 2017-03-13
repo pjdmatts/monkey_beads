@@ -1,6 +1,9 @@
 import media
 import fresh_tomatoes
 
+#generate instances of the class Movie to store title, storyline, poster art
+#and Youtube video
+
 toy_story = media.Movie("Toy Story", "The Toys Are Alive?!",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
@@ -29,6 +32,9 @@ harry = media.Movie("The Trouble With Harry",
                     "How To Dispose Of A Corpse In Beautiful Vermont",
                     "https://upload.wikimedia.org/wikipedia/commons/c/c2/The_Trouble_with_Harry.jpg",
                     "https://www.youtube.com/watch?v=U0w_1cHIc-0")
+
+#store the movie objects in an array and pass to the method within fresh_tomatoes
+#that will generate the web page.
 
 movies = [toy_story, avatar, north_by_northwest,
           big_lebowski, the_martian, harry]
