@@ -33,7 +33,7 @@ harry = media.Movie("The Trouble With Harry",
                     "https://upload.wikimedia.org/wikipedia/commons/c/c2/The_Trouble_with_Harry.jpg",
                     "https://www.youtube.com/watch?v=U0w_1cHIc-0")
 
-#store the movie objects in an array and pass to the method within fresh_tomatoes
+#store the movie objects in a list and pass to the method within fresh_tomatoes
 #that will generate the web page.
 
 movies = [toy_story, avatar, north_by_northwest,
